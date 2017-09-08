@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">Tranxit Pro</string>
+
+    <!--Google map-->
+    <string name="google_map_api">AIzaSyA6e191dVE0EMKbLdwdZ5ONqAh4q2sPn4c</string>
+
+    <!--Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_tranxit">Get moving with Tranxit Pro</string>
+    <string name="enter_your_mail_id">Enter your mail ID</string>
+    <string name="or_connect_with_social_media">Or connect with social</string>
+
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">What\'s your email address?</string>
+    <string name="sample_mail_id">name@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">Welcome back, sign in to continue </string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="i_need_to_create_an_account">I need to create an account</string>
+
+
+    <!--Activity Register-->
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">Enter your mail ID for recovery</string>
+
+    <!-- Coupon Fragment-->
+    <string name="enter_the_coupon">Enter the coupon code</string>
+    <string name="add_coupon">ADD COUPON</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">Edit Account</string>
+    <string name="change_password">Looking to change password?</string>
+    <string name="save">SAVE</string>
+    <string name="update_success">Profile Updated.</string>
+
+
+    <!-- Home Fragment-->
+    <string name="where_to_go">Where to?</string>
+    <string name="selected_option">Economy</string>
+    <string name="selected_payment_mode">Cash</string>
+    <string name="change">Change</string>
+    <string name="request_xuber">Request Ride</string>
+
+
+    <!--Schedule Layout -->
+    <string name="schedule">Schedule a Ride</string>
+    <string name="change_date">Change</string>
+    <string name="sample_date">Choose a date</string>
+    <string name="sample_time">Choose a time</string>
+    <string name="next">Schedule Request</string>
+    <string name="different_time">You can\'t schedule in past timings, please choose different time.</string>
+    <string name="choose_date_time">Please choose date and time for schedule.</string>
+
+    <!--Service List Item -->
+    <string name="service_list_item">Jaguar</string>
+    <string name="no_service">No Services found.</string>
+    <string name="no_route">There is no route, choose different destination.</string>
+    <string name="choose_payment">Choose payment method</string>
+
+    <!--Approximate -->
+    <string name="approximate">Approximate Rate</string>
+    <string name="eta_time">ETA</string>
+    <string name="sample_rate">$1234</string>
+    <string name="include_all">Including all other charges</string>
+
+    <!-- Confirm your pickup -->
+    <string name="confirm_your_pickup">Confirm your Pickup</string>
+    <string name="confirm">Confirm Pickup</string>
+    <string name="sample_address">110, St.Joseph Chruch, Richards, road Newyork</string>
+    <string name="done">Done</string>
+
+    <!-- Waiting for provider -->
+    <string name="looking_for_ride">Looking for your ride</string>
+    <string name="cancel_ride">Cancel ride</string>
+    <string name="no_providers_found">No one found at the moment to take your ride, Please try after sometime.</string>
+    <string name="no_drivers_found">No drivers found.</string>
+    <string name="retry">Retry Now</string>
+    <string name="try_later">Later</string>
+
+
+    <!--Provider Accepted-->
+    <string name="sample_name">Will Smith</string>
+    <string name="sample_service">BMW</string>
+    <string name="call_btn">Call</string>
+    <string name="cancel_trip">Cancel Trip</string>
+    <string name="surge_pricing">Due to peak hours, charges will be vary based on availability of providers.</string>
+
+
+
+    <!--Payment Fragment-->
+    <string name="payment">Payment</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="add_payments">Add Card for payments</string>
+    <string name="card_details">Card Details</string>
+    <string name="card_number">Credit/Debit Card Number</string>
+    <string name="sample_card_no">XXXX - XXXX - XXXX - XXXX</string>
+    <string name="month_and_year">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="add">Add Card</string>
+    <string name="enter_card_details">Card details not valid.</string>
+    <string name="are_you_sure">Are you sure want to remove?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <!--Status -->
+    <string name="arrived">Driver has arrived at your location.</string>
+    <string name="picked_up">Enjoy your ride.</string>
+    <string name="dropped">Ride has completed.</string>
+
+    <!--Your Trips-->
+    <string name="history">History</string>
+    <string name="comments">Comments</string>
+    <string name="no_trips">You have no past trips</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+
+
+    <!--Invoice -->
+    <string name="invoice">Invoice</string>
+    <string name="base_price">Base price</string>
+    <string name="sample_base_price">$100.00</string>
+    <string name="extra_price">Extra</string>
+    <string name="tax">Tax</string>
+    <string name="total">Total</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="distance_price">Distance Price</string>
+
+
+    <!--Rate provider-->
+    <string name="rate_provider">Rate your trip with</string>
+    <string name="write_your_comment">Write your comment</string>
+    <string name="submit">Submit</string>
+
+
+    <!-- Source and destination-->
+    <string name="source_location">Your location</string>
+    <string name="destination_location">Where to?</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">Connect to network or quit</string>
+    <string name="cencel_request">Are you sure you want to cancel the ride?</string>
+    <string name="connect_to_wifi">Connect to WIFI</string>
+    <string name="quit">Quit</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="something_went_wrong_net">Something went wrong, Please check internet connection.</string>
+    <string name="oops_connect_your_internet">Oops ! Connect your Internet.</string>
+    <string name="server_down">Unable to reach server.</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="email_validation">Enter your email ID.</string>
+    <string name="not_valid_email">Not a valid email ID.</string>
+    <string name="password_validation">Password could not be left empty.</string>
+    <string name="first_name_empty">First name required.</string>
+    <string name="last_name_empty">Last name required.</string>
+    <string name="mobile_number_empty">Mobile number required.</string>
+
+    <!--True or False -->
+    <string name="True">true</string>
+    <string name="False">false</string>
+
+
+    <!--Coupon Activity-->
+    <string name="not_vaild_coupon">Coupon is not valid or may expired.</string>
+    <string name="coupon_added">Coupon applied successfully.</string>
+    <string name="add_coupon_txt">Add Coupon</string>
+    <string name="added_coupon">Coupon\'s applied by you</string>
+    <string name="already_in_use_coupon">Coupon already used by you.</string>
+    <string name="expired_coupon">Sorry, coupon has expired.</string>
+    <string name="off">OFF</string>
+    <string name="the_applied_coupon">The coupon code applied is</string>
+    <string name="valid_until">Valid until</string>
+    <string name="enter_the_code">Enter the coupon code</string>
+
+
+    <!--Wallet Activity-->
+    <string name="wallet_balance">Your wallet amount is</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="please_enter_current_pass">Please enter current password.</string>
+    <string name="please_enter_new_pass">Please enter new password.</string>
+    <string name="please_enter_confirm_pass">Please enter confirmation password.</string>
+    <string name="different_passwords">Password doesn\'t match.</string>
+    <string name="commision">Commision</string>
+
+
+
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

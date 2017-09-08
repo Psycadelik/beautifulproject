@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_soruce_and_destination"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tranxitpro.app.Fragments.SoruceAndDestination">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:src="@drawable/back_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/round"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+
+            <!-- City and Country Selector -->
+            <EditText
+                android:id="@+id/txtaddressSource"
+                android:hint="@string/source_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:background="@color/edit_bg"
+                android:textColor="@color/text_color_black"
+                android:textSize="16sp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgSourceClose"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:src="@drawable/close"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/box"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <EditText
+                android:id="@+id/txtDestination"
+                android:hint="@string/destination_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D3D3D3"
+                android:textColor="@color/text_color_black"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="10dp">
+                </EditText>
+
+            <ImageView
+                android:id="@+id/imgDestClose"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:src="@drawable/close"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <com.tranxitpro.app.Utils.MyBoldTextView
+            android:id="@+id/txtPickLocation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center|start"
+            android:textColor="@color/black_text_color"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:text="Pick Location"/>
+
+        <ListView
+            android:id="@+id/searchResultLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">20sp</item><!-- text size in menu-->
+        <item name="android:listPreferredItemHeightSmall">60dp</item><!-- item size in menu-->
+        <item name="android:fontFamily">fonts/ClanPro-NarrBook.otf</item>
+        <!--<item name="colorControlHighlight">@android:color/white</item>-->
+    </style>
+</resources>

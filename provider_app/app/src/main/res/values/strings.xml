@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Tranxit Pro Driver</string>
+
+    <!--Google map-->
+    <string name="google_map_api">AIzaSyDStEHD8qw0Ng7lDxM5h3ZI5DtlMQVwd_w</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="waitingForApproval">Waiting for your account to be verified by our authority.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_tranxit">Get moving with Tranxit Pro</string>
+    <string name="enter_your_mail_id">Enter your mail ID</string>
+    <string name="or_connect_with_social_media">Or connect with social</string>
+
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">What\'s your email address?</string>
+    <string name="sample_mail_id">name@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">Welcome back, sign in to continue </string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="i_need_to_create_an_account">I need to create an account</string>
+
+
+    <!--Activity Register-->
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">Enter your mail ID for recovery</string>
+
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">Edit Account</string>
+    <string name="change_password">Looking to change password?</string>
+    <string name="save">SAVE</string>
+    <string name="update_success">Profile Updated.</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">Connect to network or quit</string>
+    <string name="connect_to_wifi">Connect to WIFI</string>
+    <string name="quit">Quit</string>
+    <string name="cancel_ride">Cancel ride</string>
+    <string name="cencel_request">Are you sure you want to cancel the ride?</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="something_went_wrong_net">Something went wrong, Please check internet connection.</string>
+    <string name="oops_connect_your_internet">Oops ! Connect your Internet.</string>
+    <string name="server_down">Unable to reach server.</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="email_validation">Enter your email ID.</string>
+    <string name="not_valid_email">Not a valid email ID.</string>
+    <string name="password_validation">Password could not be left empty.</string>
+    <string name="first_name_empty">First name required.</string>
+    <string name="last_name_empty">Last name required.</string>
+    <string name="mobile_number_empty">Mobile number required.</string>
+
+
+    <!--Approval status-->
+    <string name="approved">Approved</string>
+    <string name="banned">Banned</string>
+    <string name="waiting_for_approval">Waiting for Approval</string>
+
+    <!--Wallet Fragment-->
+    <string name="your_wallet_amount">Your wallet amount is</string>
+    <string name="sample_amount">1450</string>
+
+    <!--Offline Activity -->
+    <string name="go_online">Go Online</string>
+    <string name="go_offline">GO OFFLINE</string>
+
+    <!--Invalid Username and Password-->
+    <string name="invalid_credentials">Invalid Username and Password.</string>
+
+
+    <!--True or False -->
+    <string name="True">true</string>
+    <string name="False">false</string>
+
+    <!--Your Trips-->
+    <string name="history">History</string>
+    <string name="comments">Comments</string>
+    <string name="no_trips">No trip available.</string>
+    <string name="no_upcoming_trips">No Upcoming trips available.</string>
+    <string name="no_rides">No rides completed.</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="sample_name">Will Smith</string>
+
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">TAP WHEN ARRIVED</string>
+    <string name="tap_when_pickedup">TAP WHEN PICKEDUP</string>
+    <string name="tap_when_dropped">TAP WHEN DROPPED</string>
+    <string name="tap_when_paid">CONFIRM PAYMENT</string>
+    <string name="rate_user">SUBMIT</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="please_enter_current_pass">Please enter current password.</string>
+    <string name="please_enter_new_pass">Please enter new password.</string>
+    <string name="please_enter_confirm_pass">Please enter confirmation password.</string>
+    <string name="different_passwords">Password doesn\'t match.</string>
+
+
+    <!--Side Navigation Menu -->
+    <string name="home">Home</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="wallet">Wallet</string>
+    <string name="help">Help</string>
+    <string name="earnings">Earnings</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+</resources>
