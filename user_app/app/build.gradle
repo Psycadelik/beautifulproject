@@ -60,7 +60,7 @@ dependencies {
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.h6ah4i.android.materialshadowninepatch:materialshadowninepatch:0.6.5'
     compile 'com.skyfishjy.ripplebackground:library:1.0.1'
-    compile 'com.koushikdutta.ion:ion:2.+'
+    //compile 'com.koushikdutta.ion:ion:2.+'
     compile 'com.squareup.picasso:picasso:2.5.2'
     //For error logcat
     compile 'com.splunk:mint-android-sdk:5.1.0'

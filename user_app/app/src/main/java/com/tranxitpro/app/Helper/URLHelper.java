@@ -1,11 +1,14 @@
 package com.tranxitpro.app.Helper;
 
+
 public class URLHelper {
-    public static final String base = "https://schedule.tranxit.co/";
-//    public static final String base = "https://dev.tranxit.co/";
-    public static final int client_id = 2;
-    public static final String client_secret = "yVnKClKDHPcDlqqO1V05RtDRdvtrVHfvjlfqliha";
-    public static final String STRIPE_TOKEN = "pk_test_0G4SKYMm8dK6kgayCPwKWTXy";
+    //public static final String base = "https://schedule.tranxit.co/";
+   //public static final String base = "https://localhost:8000/";
+    //public static final String base = "https://xuberweb.dev/app/public/";
+  public  static final String base = "https://dev.tranxit.co/";
+    //public static final int client_id = 2;
+  //  public static final String client_secret = "yVnKClKDHPcDlqqO1V05RtDRdvtrVHfvjlfqliha";
+    //public static final String STRIPE_TOKEN = "pk_test_0G4SKYMm8dK6kgayCPwKWTXy";
 //    public static final String client_secret = "sk_test_qx8uEcUebR3MXl8IZf2WedI5";
 //    public static final String STRIPE_TOKEN = "pk_test_0G4SKYMm8dK6kgayCPwKWTXy";
 
